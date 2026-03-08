@@ -21,7 +21,60 @@ $HOME/
  └── exptab
 ```
 
+---# Wave_Plus – Instrukcja uruchomienia miernika radonu (MIDAS)
+
+Interfejs Python do integracji miernika radonu z systemem MIDAS DAQ.
+
 ---
+
+## 1. Wymagania
+
+- System Linux (testowane na Fedora)
+- Zainstalowany MIDAS
+- Python 3.8+
+- 3 terminale
+
+Wymagana struktura katalogów:
+
+```
+$HOME/
+ ├── midas
+ ├── online/
+ │    └── radon/
+ └── exptab
+```
+
+---
+
+## 2. Konfiguracja środowiska
+
+
+W katalogu projektu znajduje się plik `setup_env.sh`, który konfiguruje
+wszystkie wymagane z.com/OlixM/waveplus-midas.git
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+olix@fedora:~$ 
+mienne środowiskowe MIDAS.
+
+Nadaj mu prawa wykonywania (jednorazowo):
+
+```bash
+chmod +x setup_env.sh
+```
+
+W KAŻDYM nowym terminalu uruchom:
+
+```bash
+source setup_env.sh
+```
+
+⚠ Ważne:  
+Nie używaj `./setup_env.sh`, ponieważ zmienne środowiskowe
+nie zostaną ustawione w aktualnym shellu.
+---
+
+## 3. Uruchomienie serwera MIDAS
+
 
 ## 2. Konfiguracja środowiska
 
