@@ -21,21 +21,22 @@ $HOME/workspace/
 Dla komputera w Cezamacie nie jest wymagana
 
 ### 1. Ustawienie sciezki /online-radon w /online/exptab
-\dots
+````text
 radon /home/astrocent/workspace/online-radon radon
-\dots
+````
 
 
 ## 3. Uruchomienie serwera MIDAS
 ### Serwer o nazwie radon
+````text
 $cd ~/workspace/online/ 
 $mserver -e radon -D
 $mhttpd -e radon
-
+````
 ## 4.Uruchomienie programu midas_radon
-
+````text
 $python midas_radon.py
-
+````
 Available experiments on local computer
 \dots
 Wybrac: radon
