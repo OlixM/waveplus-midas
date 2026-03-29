@@ -4,7 +4,9 @@ Interfejs Python do integracji miernika radonu z systemem MIDAS DAQ.
 
 ---
 
-Struktura katalogu na komputerze w Cezamacie
+## Struktura katalogów (komputer w Cezamacie)
+
+```text
 $HOME/workspace/
  ├── online/
  ├── online-radon/
@@ -14,7 +16,7 @@ $HOME/workspace/
                 ├── midas_radon.py
                 ├── radon_ble.py
                 └── __pycache__/
-
+```
 ## 2.Konfiguracja środowiska
 Dla komputera w Cezamacie nie jest wymagana
 
